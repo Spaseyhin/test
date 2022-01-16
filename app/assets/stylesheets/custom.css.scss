@@ -1,0 +1,113 @@
+
+.igure {width: 100%;}
+
+.center h1 {margin-bottom: 10px;}
+
+.mar{
+    margin-bottom: 5%;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+section {overflow: auto;}
+
+textarea {resize: vertical;}
+
+h1, h2, h3, h4, h5, h6 {line-height: 1;}
+
+h1 {
+    font-size: 3em;
+    letter-spacing: -2px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+h2 {
+    font-size: 1.2em;
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: normal;
+    color: #777;
+}
+p {
+    font-size: 1.1em;
+    line-height: 1.7em;
+}
+h1 {
+    font-size: 3em;
+    letter-spacing: -2px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+h2 {
+    font-size: 1.2em;
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: normal;
+    color: #777;
+}
+p {
+    
+    font-size: 1.1em;
+    line-height: 1.7em;
+}
+
+
+
+footer {
+    margin-top: 400px;
+    padding-top: 5px;
+    border-top: 1px solid #eaeaea;
+    color: #777;
+        a 
+        {color: #555;
+         &:hover {color: #222;}
+        }
+        small 
+        {float: left;}
+        ul 
+        {float: right;
+        list-style: none;
+        li 
+        {float: left;
+        margin-left: 15px;
+        }
+    }
+}
+
+@mixin box_sizing {
+-moz-box-sizing:
+border-box;
+-webkit-box-sizing: border-box;
+box-sizing:
+border-box;
+}
+/* разное */
+.debug_dump {
+clear: both;
+float: left;
+width: 100%;
+margin-top: 45px;
+@include box_sizing;
+}
+
+
+.input_new_pos {
+    margin-top: 2%;
+    width: 300px;
+}
+
+html {
+  overflow-x: hidden;
+  margin-right: calc(-1 * (100vw - 100%));
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+
+
+
+

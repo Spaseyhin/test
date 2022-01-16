@@ -1,0 +1,47 @@
+<% provide(:title, "Arr")%>
+<!DOCTYPE html>
+<html>
+  <head>
+    
+  </head>
+
+  <body>
+
+      <h1>Welcome to the Simple app</h1>
+      <h2>This is the home page for the 
+        <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a> 
+        sample application.
+      </h2>
+
+
+
+    <div class="row">
+
+      <div class="col-xs-6 col-md-6">
+        <%= image_tag "152298-ajpad-ipad_pro-apple-ipad_pro_2017-yabloko-1920x1080.jpg", class: "igure mar"%>
+        <p class ="mar">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis semper congue. Curabitur et gravida orci. Integer quis accumsan urna. Vestibulum vel mi in odio maximus posuere. Morbi gravida dictum orci, et egestas metus molestie vitae. 
+        </p>
+        
+        <%= link_to 'click me', index_path,  class: "btn btn-lg btn-primary mar"%>
+      </div>
+
+      <div class="col-xs-6 col-md-6">
+        <%= image_tag "152301-ajpad-ipad_pro-apple-ipad_pro_2017-yabloko-1920x1080.jpg", class: "igure mar"%>
+        <p class ="mar">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis semper congue. Curabitur et gravida orci. Integer quis accumsan urna. Vestibulum vel mi in odio maximus posuere. Morbi gravida dictum orci, et egestas metus molestie vitae.  
+        </p>
+        
+        <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary mar" %>
+      </div>
+
+    </div>
+
+
+  </body>
+</html>
+
+
+
+
+
